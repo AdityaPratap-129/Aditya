@@ -83,14 +83,7 @@ Node* insertInMiddle(Node* head, int x)
 	Node *t=head;
 	int j=0,k;
 	
-	if((p%2)==0)
-	{
-	    p=p/2;
-	}
-	else
-	{
-	    p=p/2 ;
-	}
+	p=p/2;
 	
 	for(j=0;j<p-1;j++)
 	{
